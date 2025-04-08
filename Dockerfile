@@ -1,5 +1,5 @@
 # Note: This image is also built in CircleCI, so limit references to internal repositories.
-FROM golang:1.16
+FROM golang:1.24.2
 
 # Create app directory
 WORKDIR /usr/src/app
